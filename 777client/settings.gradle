@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            // uri() form: assigning a bare String is deprecated on Gradle 9
+            url = uri('https://maven.fabricmc.net/')
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = '777client'

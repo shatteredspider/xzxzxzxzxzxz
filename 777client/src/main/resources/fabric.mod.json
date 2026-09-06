@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sevenclient",
+  "version": "${version}",
+  "name": "777 Client",
+  "description": "777 Client - a minimal, high-performance Fabric utility client.",
+  "authors": [ "777" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "dev.sevenclient.SevenClient" ]
+  },
+  "mixins": [ "sevenclient.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
